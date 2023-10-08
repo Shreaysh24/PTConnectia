@@ -1,0 +1,45 @@
+body{
+    margin: opx;
+    position: absolute;
+    background-image: url(/image/Back-Doodle.png);
+    background-color: #113946;
+    text-align: center;
+}
+#App-Logo {
+    position: relative;
+    top:60%;
+    width: 200px;
+    border-radius: 700px;
+    border-color:gray;
+    border-style: double;
+    background-color: #113946;
+} 
+
+#h1-Welcome{
+    display: inline-block;
+    color: #BCA37F;
+    font-family: 'Sacramento', cursive;;
+    font-size: 437.5%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+ button {
+    --button_radius: 0.75em;
+    --button_color: #FFF2D8;
+    --button_outline_color: #113946;
+    font-size: 106.25%;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+    border: none;
+    border-radius: var(--button_radius);
+    margin: 10px 0px;
+    width: 255px;
+    height: 49.5px;
+    display: block;
+    box-sizing: border-box;
+    padding: 0.75em 1.5em;
+    background: var(--button_color);
+    color: var(--button_outline_color);
+    margin: 10% 0% 10% 16%;
+  }
