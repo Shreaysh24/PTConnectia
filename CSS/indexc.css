@@ -1,7 +1,7 @@
 body{
     margin: opx;
     position: absolute;
-    background-image: url(/image/Back-Doodle.png);
+    background-image: url("Back-Doodle.png");
     background-color: #113946;
     text-align: center;
 }
