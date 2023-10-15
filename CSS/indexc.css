@@ -3,7 +3,11 @@ body{
     position: absolute;
     background-image: url("Back-Doodle.png");
     background-color: #113946;
+    display: block;
+    align-items: center;
+    margin: 10px auto;
     text-align: center;
+    justify-content: center;
 }
 #App-Logo {
     position: relative;
@@ -25,6 +29,7 @@ body{
 }
 
  button {
+
     --button_radius: 0.75em;
     --button_color: #FFF2D8;
     --button_outline_color: #113946;
@@ -33,13 +38,11 @@ body{
     font-family: 'Merriweather', serif;
     border: none;
     border-radius: var(--button_radius);
-    margin: 10px 0px;
-    width: 255px;
-    height: 49.5px;
-    display: block;
+    width: 304px;
+    height: 57px;
     box-sizing: border-box;
     padding: 0.75em 1.5em;
     background: var(--button_color);
     color: var(--button_outline_color);
-    margin: 10% 0% 10% 16%;
+    margin: auto auto 27px;
   }
