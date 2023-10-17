@@ -74,10 +74,10 @@ button {
     margin-top: 40px;
     z-index: 2;
     position: relative;
-    width: 90px;
+    width: 100px;
     border-radius: 16px;
     background-color: #BCA37F;
-    height: 40px;
+    height: 44px;
     color: #113946;
     font-size: 1em;
     font-weight: 500;
