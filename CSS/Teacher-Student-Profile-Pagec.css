@@ -1,0 +1,91 @@
+body{
+    font-family: 'Merriweather', serif;
+    background-color: #113946;
+    background-image: url("Back-Doodle.png");
+    margin: 0px;
+    text-align: center;
+}
+
+fieldset{
+    margin-top: 10%;
+    border-radius: 85px;
+
+}
+.Student-Profile{
+    width: 80px;
+}
+
+legend{
+    margin: 0 auto;
+    
+}
+
+.name{
+    display: block;
+    text-align: center;
+    margin: 5% auto;
+    background-color: #EAD7BB;
+    width: 75%;
+    height: 30px;
+}
+
+
+
+.Sub-Name1{
+    display: inline-block;
+    text-align: center;
+    margin: 5% auto;
+    background-color: #EAD7BB;
+    width: 37%;
+    height: 30px;
+}
+
+
+.Sub-Name2{
+    display: inline-block;
+    text-align: center;
+    margin: 5% auto;
+    background-color: #EAD7BB;
+    width: 37%;
+    height: 30px;
+}
+
+
+button {
+    --button_radius: 0.75em;
+    --button_color: #FFF2D8;
+    --button_outline_color: #113946;
+    font-size: 106.25%;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+    border: none;
+    border-radius: var(--button_radius);
+    height: 49.5px;
+    box-sizing: border-box;
+    padding: 0.75em 1.5em;
+    background: var(--button_color);
+    color: var(--button_outline_color);
+    width: 318px;
+    margin: auto auto 10%;
+    position: relative;
+  }
+
+  #button {
+    margin-top: 40px;
+    z-index: 2;
+    position: relative;
+    width: 90px;
+    border-radius: 16px;
+    background-color: #BCA37F;
+    height: 40px;
+    color: #113946;
+    font-size: 1em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  #button:hover {
+    background-color: #FFF2D8;
+  }
