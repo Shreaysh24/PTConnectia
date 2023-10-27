@@ -1,0 +1,222 @@
+/* Global Things */
+body{
+    font-family: 'Merriweather', serif;
+    background-color: #113946;
+    background-image: url("Back-Doodle.png");
+    background-attachment: fixed;
+    margin: 0px;
+    text-align: center;
+}
+
+.main-head{
+    color: #BCA37F;
+    font-size: 437.5%;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.sub-head{
+    color: #BCA37F;
+    font-family: 'Sacramento', cursive;;
+    font-size: 3em; 
+}
+
+.big-button{
+    background-color: #FFF2D8;
+    border-color: #113946;
+    border-radius: 0.75em;
+    border: none;
+    font-size: 107%;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+    height: 60px;
+    padding: 0.75em 1.5em;
+    width: 305px;
+    margin: auto auto 20px;
+}
+.small-button{
+    width: 105px;
+    border-radius: 16px;
+    background-color: #BCA37F;
+    height: 45px;
+    color: #FFF2D8;
+    font-size: 1em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 10px;
+    cursor: pointer;    
+}
+.small-button:hover {
+    background-color: #BCA37F;
+  }
+fieldset{
+    margin-top: 10%;
+    border-radius: 85px;
+}
+legend{
+    margin: auto auto;  
+}
+.full-label{
+    display: block;
+    margin: auto auto 7%;
+    background-color: #EAD7BB;
+    width: 273px;
+    height: 35px;
+    border-radius: 10px;
+}
+.half-label{
+    display: inline-block;
+    margin: auto auto 7%;
+    background-color: #EAD7BB;
+    width: 135px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+
+
+/* First Page */
+.App-Logo {
+    width: 200px;
+    border-radius: 700px;
+    border-color:gray;
+    border-style: double;
+    background-color: #113946;
+} 
+
+
+/* Login Page */
+.form_main {
+    padding: 50px 50px 50px 50px;
+    margin: 45% auto;
+    width: 210px;
+    height: 250px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF2D8;
+    box-shadow: 2px 7px 10px 2px #EAD7BB;
+    position: relative;
+    overflow: hidden;
+}
+.form_main::before {
+    position: absolute;
+    content: "";
+    width: 300px;
+    height: 300px;
+    background-color: #EAD7BB;
+    transform: rotate(45deg);
+    left: -180px;
+    z-index: 1;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px #BCA37F;
+}
+.heading {
+    font-size: 2em;
+    color: #BCA37F;
+    font-weight: 700;
+    z-index: 2;
+    margin: 0px;
+}
+.inputContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+.inputIcon {
+    height: 25px;
+}
+.inputField {
+    width: 100%;
+    height: 30px;
+    background-color: transparent !important;
+    border: none;
+    border-bottom: 2px solid #2e2e2e;
+    margin: 10px 4px;
+    font-size: 1em;
+}
+.inputField::placeholder {
+    color: #BCA37F;
+}
+.input-button{
+    z-index: 2;
+}
+.input-button:hover {
+    background-color: #BCA37F;
+  }
+
+
+  /* Teacher First Page */
+.tfp-div{
+    margin-top: 42%;
+}
+.tfp-nav {
+    width: 350px;
+    margin: 45% auto auto;
+    padding: 10px 10px;
+    border-radius: 19px;
+    background-color: #BCA37F;
+    box-shadow: 1px 2px 3px 1px black;
+}
+.tfp-img{
+    width: 50px;
+    padding: 8px;
+    border-radius: 72px;
+    background-color: #113946;
+    margin: 0px 10px 0px;
+}
+
+/* Teacher-Search-Page */
+.div-group{
+    position: absolute;
+    top: 10%;
+    left: 0px;
+    right: 0px;
+    margin: 20px auto;
+    width: 299px;
+}
+.input-tsp{
+    height: 40px;
+    width: 100%;
+    padding-left: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background-color: #BCA37F;
+    box-shadow: 0 0 5px #EAD7BB, 0 0 0 10px #EAD7BB;
+    transition: .3s ease;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.input-tsp::placeholder {
+    color: #FFF2D8;
+    font-size: 15px;
+  }
+.icon-tsp{
+    position: absolute;
+    left: 1rem;
+    fill: #113946;
+    width: 1rem;
+    height: 1rem;
+  }
+.img-tsp{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 30px;
+}
+
+/* Teacher-Student-Profile-Page && Teacher-Student-FullProfile */
+.Profile-tssp{
+    width: 80px;
+}
+
+/* Teacher-Student-CIMarks */
+table{
+    background-color: antiquewhite;
+    width: 70%;
+    margin: 10px auto;
+    padding: 5%;
+    border-radius: 20px;
+}
