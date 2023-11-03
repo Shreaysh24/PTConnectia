@@ -4,7 +4,7 @@ body{
     background-color: #113946;
     background-image: url("Back-Doodle.png");
     background-attachment: fixed;
-    margin: 0px;
+    margin: 10px ;
     text-align: center;
 }
 
@@ -16,11 +16,12 @@ body{
 
 .sub-head{
     color: #BCA37F;
-    font-family: 'Sacramento', cursive;;
+    font-family: 'Salsa', cursive;
     font-size: 3em; 
 }
 
 .big-button{
+    display: block;
     background-color: #FFF2D8;
     border-color: #113946;
     border-radius: 0.75em;
@@ -42,7 +43,7 @@ body{
     font-size: 1em;
     font-weight: 500;
     letter-spacing: 1px;
-    margin: 10px;
+    margin-top: 10px;
     cursor: pointer;    
 }
 .small-button:hover {
@@ -57,19 +58,22 @@ legend{
 }
 .full-label{
     display: block;
-    margin: auto auto 7%;
+    margin: 15px auto ;
     background-color: #EAD7BB;
     width: 273px;
     height: 35px;
     border-radius: 10px;
+    padding-top: 12px;
+
 }
 .half-label{
     display: inline-block;
-    margin: auto auto 7%;
+    margin: 15px  auto ;
     background-color: #EAD7BB;
     width: 135px;
     height: 35px;
     border-radius: 10px;
+    padding-top: 12px;
 }
 
 
@@ -219,4 +223,9 @@ table{
     margin: 10px auto;
     padding: 5%;
     border-radius: 20px;
+}
+
+/*  Teacher-Student-Achivement  */
+.achivementS{
+    margin-bottom: 50px;
 }
