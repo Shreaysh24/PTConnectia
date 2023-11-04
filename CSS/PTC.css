@@ -91,7 +91,7 @@ legend{
 /* Login Page */
 .form_main {
     padding: 50px 50px 50px 50px;
-    margin: 45% auto;
+    margin: 200px auto auto;
     width: 210px;
     height: 250px;
     border-radius: 15px;
@@ -154,11 +154,11 @@ legend{
 
   /* Teacher First Page */
 .tfp-div{
-    margin-top: 42%;
+    margin: 250px auto auto;
 }
 .tfp-nav {
     width: 350px;
-    margin: 45% auto auto;
+    margin: 200px auto auto;
     padding: 10px 10px;
     border-radius: 19px;
     background-color: #BCA37F;
@@ -209,6 +209,42 @@ legend{
     top: 5px;
     left: 5px;
     width: 30px;
+}
+/* user */
+.in{
+    position: fixed;
+    top: 0;
+    left:-250px;
+    background-color: #113946;
+    text-align: center;
+    width: 250px;
+    height: 100%;
+    transition: .3s;    
+}
+.active{
+    left: 0;
+}
+.tfp-img-pro{
+    width: 130px;
+}
+.footer{
+    position: relative;
+    top: 32%;
+}
+/* about us */
+.out{
+    position: fixed;
+    top: 0;
+    right: -250px;
+    background-color: #113946;
+    text-align: center;
+    width: 250px;
+    height: 100%;
+    transition: .3s;    
+}
+
+.deActive{
+    right: 0;
 }
 
 /* Teacher-Student-Profile-Page && Teacher-Student-FullProfile */
