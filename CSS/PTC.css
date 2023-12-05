@@ -1,4 +1,12 @@
 /* Global Things */
+
+/* fonts */
+/* Merriweather */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+/*Yanone  */
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+/* Salsa */
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
 body{
     font-family: 'Merriweather', serif;
     background-color: #113946;
