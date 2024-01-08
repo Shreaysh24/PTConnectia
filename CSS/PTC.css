@@ -41,6 +41,7 @@ body{
     padding: 0.75em 1.5em;
     width: 305px;
     margin: auto auto 20px;
+    cursor: pointer;
 }
 .small-button{
     width: 105px;
