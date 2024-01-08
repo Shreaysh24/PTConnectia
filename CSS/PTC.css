@@ -166,6 +166,7 @@ legend{
 }
 .tfp-nav {
     width: 350px;
+    position: sticky;
     margin: 200px auto auto;
     padding: 10px 10px;
     border-radius: 19px;
