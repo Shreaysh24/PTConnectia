@@ -5,11 +5,11 @@ $("form .inputContainer .inputIcon:eq(1)").click(function() {
   var p = document.getElementById("pwd");
   if(p.type == "password"){
     p.type = "text";
-    $("form .inputContainer img")[1].src="/image/eye.png"
+    $("form .inputContainer img")[1].src="/PTConnectia/image/eye.png"
   }
   else{
     p.type = "password";
-    $("form .inputContainer img")[1].src="/image/hide.png"
+    $("form .inputContainer img")[1].src="/PTConnectia/image/hide.png"
   }
 });
 
