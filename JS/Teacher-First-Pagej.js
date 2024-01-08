@@ -9,7 +9,7 @@ $("form .inputContainer .inputIcon:eq(1)").click(function() {
   }
   else{
     p.type = "password";
-    $("form .inputContainer img")[1].src="/PTConnectia/image/hide.png"
+    $("form .inputContainer img")[1].src="/image/hide.png"
   }
 });
 
